@@ -1,0 +1,16 @@
+name	nbRequest	nbRequestOK	nbRequestKO	minResponseTime	minResponseTimeOK	minResponseTimeKO	maxResponseTime	maxResponseTimeOK	maxResponseTimeKO	meanResponseTime	meanResponseTimeOK	meanResponseTimeKO	deviation	deviationOK	deviationKO	percentile1	percentile1OK	percentile1KO	percentile2	percentile2OK	percentile2KO	group1Name	group1Count	group1Percentage	group2Name	group2Count	group2Percentage	group3Name	group3Count	group3Percentage	group4Name	group4Count	group4Percentage	meanNumberOfRequestsPerSecond	meanNumberOfRequestsPerSecondOK	meanNumberOfRequestsPerSecondKO
+Global Information	8500	8135	365	0	200	0	60050	59960	60050	24037	24886	5117	1418	0	0	44870	44700	60050	55750	54320	60050	t < 800 ms	239	2	800 ms < t < 1200 ms	127	1	t > 1200 ms	7769	91	failed	365	4	16	16	1
+assessment result newest populate	500	499	1	0	390	0	52210	52210	0	19743	19783	0	8338	8298	0	41020	41020	0	48090	48090	0	t < 800 ms	2	0	800 ms < t < 1200 ms	5	1	t > 1200 ms	492	98	failed	1	0	1	1	0
+coachmessages signup	500	500	0	1410	1410	-1	51640	51640	-1	27559	27559	-1	5284	5284	-1	42870	42870	-1	46320	46320	-1	t < 800 ms	0	0	800 ms < t < 1200 ms	0	0	t > 1200 ms	500	100	failed	0	0	1	1	-1
+coachmessages select	500	500	0	680	680	-1	44900	44900	-1	28163	28163	-1	9897	9897	-1	43510	43510	-1	44630	44630	-1	t < 800 ms	1	0	800 ms < t < 1200 ms	2	0	t > 1200 ms	497	99	failed	0	0	1	1	-1
+signin	500	500	0	780	780	-1	35960	35960	-1	22392	22392	-1	7443	7443	-1	33270	33270	-1	34650	34650	-1	t < 800 ms	1	0	800 ms < t < 1200 ms	0	0	t > 1200 ms	499	99	failed	0	0	1	1	-1
+user validation	500	500	0	500	500	-1	23250	23250	-1	11093	11093	-1	5312	5312	-1	17890	17890	-1	18910	18910	-1	t < 800 ms	7	1	800 ms < t < 1200 ms	11	2	t > 1200 ms	482	96	failed	0	0	1	1	-1
+coachmessages home	500	500	0	5190	5190	-1	48110	48110	-1	22612	22612	-1	4049	4049	-1	36860	36860	-1	45820	45820	-1	t < 800 ms	0	0	800 ms < t < 1200 ms	0	0	t > 1200 ms	500	100	failed	0	0	1	1	-1
+notifications	1500	1333	167	0	1570	0	60050	59920	60050	27214	29898	5790	0	0	0	50350	49730	60050	60050	54730	60050	t < 800 ms	0	0	800 ms < t < 1200 ms	0	0	t > 1200 ms	1333	88	failed	167	11	3	3	0
+coachmessages check	500	493	7	0	9550	0	58420	58420	0	28262	28663	0	0	0	0	46300	46300	0	56430	56430	0	t < 800 ms	0	0	800 ms < t < 1200 ms	0	0	t > 1200 ms	493	98	failed	7	1	1	1	0
+activityoffers	500	500	0	880	880	-1	54380	54380	-1	32671	32671	-1	0	0	-1	50820	50820	-1	52900	52900	-1	t < 800 ms	0	0	800 ms < t < 1200 ms	2	0	t > 1200 ms	498	99	failed	0	0	1	1	-1
+assessment	500	323	177	0	16430	0	60050	59960	60050	28144	40778	5089	0	0	0	56540	55250	60050	60050	59730	60050	t < 800 ms	0	0	800 ms < t < 1200 ms	0	0	t > 1200 ms	323	64	failed	177	35	1	1	0
+assessment result newest	1000	1000	0	1500	1500	-1	59740	59740	-1	24315	24315	-1	4749	4749	-1	36310	36310	-1	44710	44710	-1	t < 800 ms	0	0	800 ms < t < 1200 ms	0	0	t > 1200 ms	1000	100	failed	0	0	2	2	-1
+assessment result answer	1000	987	13	0	13030	0	58750	58750	0	28324	28697	0	0	0	0	41800	41830	0	56730	56730	0	t < 800 ms	0	0	800 ms < t < 1200 ms	0	0	t > 1200 ms	987	98	failed	13	1	2	2	0
+signup	500	500	0	200	200	-1	6480	6480	-1	1067	1067	-1	800	800	-1	2450	2450	-1	3650	3650	-1	t < 800 ms	228	45	800 ms < t < 1200 ms	107	21	t > 1200 ms	165	33	failed	0	0	1	1	-1
+

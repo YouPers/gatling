@@ -1,0 +1,36 @@
+name	nbRequest	nbRequestOK	nbRequestKO	minResponseTime	minResponseTimeOK	minResponseTimeKO	maxResponseTime	maxResponseTimeOK	maxResponseTimeKO	meanResponseTime	meanResponseTimeOK	meanResponseTimeKO	deviation	deviationOK	deviationKO	percentile1	percentile1OK	percentile1KO	percentile2	percentile2OK	percentile2KO	group1Name	group1Count	group1Percentage	group2Name	group2Count	group2Percentage	group3Name	group3Count	group3Percentage	group4Name	group4Count	group4Percentage	meanNumberOfRequestsPerSecond	meanNumberOfRequestsPerSecondOK	meanNumberOfRequestsPerSecondKO
+Global Information	132	132	0	10	10	-1	100	100	-1	19	19	-1	15	15	-1	40	40	-1	90	90	-1	t < 800 ms	132	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	3	3	-1
+request_40	4	4	0	10	10	-1	20	20	-1	13	13	-1	2	2	-1	20	20	-1	20	20	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_41	4	4	0	10	10	-1	20	20	-1	13	13	-1	2	2	-1	20	20	-1	20	20	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_42	4	4	0	20	20	-1	40	40	-1	28	28	-1	6	6	-1	40	40	-1	40	40	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_43	4	4	0	20	20	-1	20	20	-1	20	20	-1	0	0	-1	20	20	-1	20	20	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_49	4	4	0	20	20	-1	100	100	-1	48	48	-1	32	32	-1	100	100	-1	100	100	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_48	4	4	0	20	20	-1	20	20	-1	20	20	-1	0	0	-1	20	20	-1	20	20	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+signin	4	4	0	10	10	-1	10	10	-1	10	10	-1	0	0	-1	10	10	-1	10	10	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+user validation	4	4	0	10	10	-1	20	20	-1	13	13	-1	2	2	-1	20	20	-1	20	20	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_45	4	4	0	20	20	-1	40	40	-1	25	25	-1	9	9	-1	40	40	-1	40	40	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_44	4	4	0	20	20	-1	20	20	-1	20	20	-1	0	0	-1	20	20	-1	20	20	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_47	4	4	0	20	20	-1	50	50	-1	33	33	-1	12	12	-1	50	50	-1	50	50	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_46	4	4	0	20	20	-1	20	20	-1	20	20	-1	0	0	-1	20	20	-1	20	20	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_31	4	4	0	10	10	-1	20	20	-1	15	15	-1	5	5	-1	20	20	-1	20	20	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_28	4	4	0	10	10	-1	10	10	-1	10	10	-1	0	0	-1	10	10	-1	10	10	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_50	4	4	0	20	20	-1	20	20	-1	20	20	-1	0	0	-1	20	20	-1	20	20	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_32	4	4	0	10	10	-1	10	10	-1	10	10	-1	0	0	-1	10	10	-1	10	10	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_29	4	4	0	10	10	-1	10	10	-1	10	10	-1	0	0	-1	10	10	-1	10	10	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_26	4	4	0	20	20	-1	40	40	-1	33	33	-1	6	6	-1	40	40	-1	40	40	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_30	4	4	0	30	30	-1	90	90	-1	55	55	-1	23	23	-1	90	90	-1	90	90	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_27	4	4	0	10	10	-1	20	20	-1	13	13	-1	2	2	-1	20	20	-1	20	20	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_24	4	4	0	10	10	-1	10	10	-1	10	10	-1	0	0	-1	10	10	-1	10	10	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_25	4	4	0	10	10	-1	20	20	-1	13	13	-1	2	2	-1	20	20	-1	20	20	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_51	4	4	0	10	10	-1	20	20	-1	18	18	-1	1	1	-1	20	20	-1	20	20	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_52	4	4	0	20	20	-1	30	30	-1	25	25	-1	5	5	-1	30	30	-1	30	30	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_23	4	4	0	10	10	-1	10	10	-1	10	10	-1	0	0	-1	10	10	-1	10	10	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_39	4	4	0	10	10	-1	30	30	-1	20	20	-1	7	7	-1	30	30	-1	30	30	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_38	4	4	0	10	10	-1	30	30	-1	15	15	-1	9	9	-1	30	30	-1	30	30	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_37	4	4	0	10	10	-1	30	30	-1	15	15	-1	9	9	-1	30	30	-1	30	30	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_36	4	4	0	10	10	-1	20	20	-1	13	13	-1	2	2	-1	20	20	-1	20	20	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_35	4	4	0	10	10	-1	20	20	-1	13	13	-1	2	2	-1	20	20	-1	20	20	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_34	4	4	0	10	10	-1	20	20	-1	13	13	-1	2	2	-1	20	20	-1	20	20	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+request_33	4	4	0	10	10	-1	90	90	-1	33	33	-1	33	33	-1	90	90	-1	90	90	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+signup	4	4	0	10	10	-1	20	20	-1	13	13	-1	2	2	-1	20	20	-1	20	20	-1	t < 800 ms	4	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+

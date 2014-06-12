@@ -1,0 +1,37 @@
+{
+    "created": "2014-06-11T13:04:23.294Z",
+    "updated": "2014-06-11T13:04:23.294Z",
+    "__v": 0,
+    "userPreferences": {
+        "doNotAskAgainForDiaryEntry": false,
+        "email": {
+            "dailyUserMail": true,
+            "actPlanInvites": true,
+            "iCalInvites": true
+        },
+        "calendarNotification": "900",
+        "rejectedActivityPlans": [],
+        "rejectedActivities": [],
+        "starredActivities": [],
+        "focus": [
+            {
+                "question": "5278c51a6166f2de240000c6",
+                "timestamp": "2014-06-11T13:05:47.341Z"
+            }
+        ],
+        "defaultUserWeekForScheduling": {
+            "sunday": false,
+            "saturday": false,
+            "friday": true,
+            "thursday": true,
+            "wednesday": true,
+            "tuesday": true,
+            "monday": true
+        }
+    },
+    "maritalStatus": "undefined",
+    "gender": "undefined",
+
+    "owner": "539853d7499b2ec3fb001808",
+    "id": "539853d7499b2ec3fb001809"
+}
