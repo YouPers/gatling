@@ -106,6 +106,8 @@ class CompleteUserScenario extends Simulation {
       .headers(headers_1)
       .body( """{ "user": "${username}" }""").asJSON
       .basicAuth( """${username}""", """${password}""")
+      .check(jsonPath("$.id").saveAs("userId"))
+      .check(jsonPath("$.profile.id").saveAs("profileId"))
       )
 
 
@@ -181,15 +183,15 @@ class CompleteUserScenario extends Simulation {
       )
       .pause(1)
 
-      .repeat(2) {
-      exec(http("assessment result answer")
-        .put("/assessments/525faf0ac558d40000000005/answers/5278c51a6166f2de240000dd")
-        .headers(headers_33)
-        .fileBody("CompleteUserScenario_assessmentResultAnswer.json")
-        .basicAuth( """${username}""", """${password}""")
-      )
-        .pause(1)
-    }
+      .repeat(26) {
+        exec(http("assessment result answer")
+          .put("/assessments/525faf0ac558d40000000005/answers/5278c51a6166f2de240000dd")
+          .headers(headers_33)
+          .fileBody("CompleteUserScenario_assessmentResultAnswer.json")
+          .basicAuth( """${username}""", """${password}""")
+        )
+          .pause(1)
+      }
 
       .exec(http("assessment result newest")
       .get("/assessments/525faf0ac558d40000000005/results/newest")
@@ -221,53 +223,45 @@ class CompleteUserScenario extends Simulation {
       .queryParam( """uistate""", """focus.content""")
       .basicAuth( """${username}""", """${password}""")
       )
-      .pause(4)
-      .exec(http("assessment result newest")
-      .get("/assessments/525faf0ac558d40000000005/results/newest")
-      .headers(headers_23)
-      .basicAuth( """${username}""", """${password}""")
-      )
 
-      .exec(http("focus profile")
-      .put("/profiles/539853d7499b2ec3fb001809")
-      .headers(headers_33)
-      .fileBody("CompleteUserScenario_request_94.txt", Map("value" -> "myValue")).asJSON
-      .basicAuth( """${username}""", """${password}""")
-      )
+      .repeat(3) {
 
-      .pause(260 milliseconds)
-      .exec(http("request_95")
-      .post("/assessments/525faf0ac558d40000000005/results")
-      .headers(headers_1)
-      .fileBody("CompleteUserScenario_request_95.txt")
-      .basicAuth( """${username}""", """${password}""")
-      )
-      .pause(618 milliseconds)
-      .exec(http("request_96")
-      .get("/assessments/525faf0ac558d40000000005/results/newest")
-      .headers(headers_23)
-      .basicAuth( """${username}""", """${password}""")
-      )
-      .exec(http("request_97")
-      .put("/profiles/539853d7499b2ec3fb001809")
-      .headers(headers_33)
-      .fileBody("CompleteUserScenario_request_97.txt")
-      .basicAuth( """${username}""", """${password}""")
-      )
-      .pause(333 milliseconds)
-      .exec(http("request_98")
-      .post("/assessments/525faf0ac558d40000000005/results")
-      .headers(headers_1)
-      .fileBody("CompleteUserScenario_request_98.txt")
-      .basicAuth( """${username}""", """${password}""")
-      )
-      .pause(13)
-      .exec(http("request_99")
-      .put("/profiles/539853d7499b2ec3fb001809")
-      .headers(headers_33)
-      .fileBody("CompleteUserScenario_request_99.txt")
-      .basicAuth( """${username}""", """${password}""")
-      )
+        pause(2)
+          .exec(http("assessment result newest")
+          .get("/assessments/525faf0ac558d40000000005/results/newest")
+          .headers(headers_23)
+          .basicAuth( """${username}""", """${password}""")
+
+          .check(jsonPath("$.id").saveAs("assessmentResultId"))
+          .check(jsonPath("$.created").saveAs("assessmentResultCreated"))
+          )
+
+          .exec(http("focus profile")
+          .put("/profiles/${profileId}")
+          .headers(headers_33)
+          .fileBody("CompleteUserScenario_profile.json", Map(
+            "userId" -> "${userId}",
+            "profileId" -> "${profileId}"
+        )).asJSON
+          .basicAuth( """${username}""", """${password}""")
+          )
+          .pause(260 milliseconds)
+
+          .exec(http("focus assessmentResult mark dirty")
+          .post("/assessments/525faf0ac558d40000000005/results")
+          .headers(headers_1)
+          .fileBody("CompleteUserScenario_assessmentResult.json", Map(
+            "userId" -> "${userId}",
+            "assessmentResultId" -> "${assessmentResultId}",
+            "assessmentResultCreated" -> "${assessmentResultCreated}"
+        )).asJSON
+
+          .basicAuth( """${username}""", """${password}""")
+          )
+
+      }
+
+
 
 
   //		.pause(262 milliseconds)
@@ -861,12 +855,12 @@ class CompleteUserScenario extends Simulation {
     .feed(userFeeder)
     .exec(
       chain_signUp,
-      chain_assessment
-      //      ,
-      //      chain_focus
+      chain_assessment,
+      chain_focus
+
       //      ,
       //      chain_3
     )
 
-  setUp(scn.users(1000).ramp(120).protocolConfig(httpConf))
+  setUp(scn.users(2).ramp(2).protocolConfig(httpConf))
 }
