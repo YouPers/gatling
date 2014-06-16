@@ -26,6 +26,10 @@ The request bodys and templates are located in
 	
 At the end of the simulation file you will find the parameters like the **number of concurrent users**, and the **ramp up time** it will take until all users start their duty.
 
+Start the simulation with no command line parameters for an interactive mode or specify the simulation to run using:
+
+	./gatling.sh -s com.youpers.load.CompleteUserScenario
+
 Requests/Executions are combined to **chains**, which enables us to easily enable or disable parts of the user workflow.
 
 The simulation includes a custom **user feeder**, that provides users with random usernames and email adresses.
