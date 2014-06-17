@@ -236,6 +236,7 @@ class CompleteUserScenario extends Simulation {
           .check(jsonPath("$.created").saveAs("assessmentResultCreated"))
           )
 
+
           .exec(http("focus profile")
           .put("/profiles/${profileId}")
           .headers(headers_33)
@@ -246,18 +247,6 @@ class CompleteUserScenario extends Simulation {
           .basicAuth( """${username}""", """${password}""")
           )
           .pause(260 milliseconds)
-
-          .exec(http("focus assessmentResult mark dirty")
-          .post("/assessments/525faf0ac558d40000000005/results")
-          .headers(headers_1)
-          .fileBody("CompleteUserScenario_assessmentResult.json", Map(
-            "userId" -> "${userId}",
-            "assessmentResultId" -> "${assessmentResultId}",
-            "assessmentResultCreated" -> "${assessmentResultCreated}"
-        )).asJSON
-
-          .basicAuth( """${username}""", """${password}""")
-          )
 
       }
 
@@ -504,5 +493,5 @@ class CompleteUserScenario extends Simulation {
       chain_planMultipleActivityOffers
     )
 
-  setUp(scn.users(10).ramp(30).protocolConfig(httpConf))
+  setUp(scn.users(200).ramp(300).protocolConfig(httpConf))
 }

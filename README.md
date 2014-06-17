@@ -23,7 +23,12 @@ A first version of a simulation that covers the most important user flows from o
 The request bodys and templates are located in 
 
 	/request-bodies
-	
+
+The target environment is configured in the beginning of the simulation file:
+
+    val httpConf = httpConfig
+        .baseURL("https://uat.youpers.com/api")
+
 At the end of the simulation file you will find the parameters like the **number of concurrent users**, and the **ramp up time** it will take until all users start their duty.
 
 Start the simulation with no command line parameters for an interactive mode or specify the simulation to run using:

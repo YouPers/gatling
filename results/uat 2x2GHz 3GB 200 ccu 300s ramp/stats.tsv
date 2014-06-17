@@ -1,0 +1,25 @@
+name	nbRequest	nbRequestOK	nbRequestKO	minResponseTime	minResponseTimeOK	minResponseTimeKO	maxResponseTime	maxResponseTimeOK	maxResponseTimeKO	meanResponseTime	meanResponseTimeOK	meanResponseTimeKO	deviation	deviationOK	deviationKO	percentile1	percentile1OK	percentile1KO	percentile2	percentile2OK	percentile2KO	group1Name	group1Count	group1Percentage	group2Name	group2Count	group2Percentage	group3Name	group3Count	group3Percentage	group4Name	group4Count	group4Percentage	meanNumberOfRequestsPerSecond	meanNumberOfRequestsPerSecondOK	meanNumberOfRequestsPerSecondKO
+Global Information	21000	21000	0	80	80	-1	21360	21360	-1	4774	4774	-1	3151	3151	-1	10180	10180	-1	13380	13380	-1	t < 800 ms	2561	12	800 ms < t < 1200 ms	844	4	t > 1200 ms	17595	83	failed	0	0	22	22	-1
+activityPlan get	800	800	0	250	250	-1	13000	13000	-1	5808	5808	-1	2702	2702	-1	9760	9760	-1	12160	12160	-1	t < 800 ms	28	3	800 ms < t < 1200 ms	26	3	t > 1200 ms	746	93	failed	0	0	1	1	-1
+activityOffer view	800	800	0	210	210	-1	18730	18730	-1	9132	9132	-1	4002	4002	-1	15270	15270	-1	17680	17680	-1	t < 800 ms	12	1	800 ms < t < 1200 ms	12	1	t > 1200 ms	776	97	failed	0	0	1	1	-1
+activityPlan post	800	800	0	220	220	-1	15990	15990	-1	7332	7332	-1	3284	3284	-1	12450	12450	-1	14680	14680	-1	t < 800 ms	19	2	800 ms < t < 1200 ms	9	1	t > 1200 ms	772	96	failed	0	0	1	1	-1
+assessment result newest populate	200	200	0	90	90	-1	13420	13420	-1	5293	5293	-1	3164	3164	-1	10260	10260	-1	12320	12320	-1	t < 800 ms	23	11	800 ms < t < 1200 ms	8	4	t > 1200 ms	169	84	failed	0	0	0	0	-1
+coachmessages schedule	800	800	0	110	110	-1	11050	11050	-1	4498	4498	-1	2199	2199	-1	7840	7840	-1	9450	9450	-1	t < 800 ms	42	5	800 ms < t < 1200 ms	32	4	t > 1200 ms	726	90	failed	0	0	1	1	-1
+coachmessages signup	200	200	0	80	80	-1	8130	8130	-1	2173	2173	-1	2216	2216	-1	7080	7080	-1	7680	7680	-1	t < 800 ms	78	39	800 ms < t < 1200 ms	11	5	t > 1200 ms	111	55	failed	0	0	0	0	-1
+coachmessages focus	200	200	0	120	120	-1	10050	10050	-1	4252	4252	-1	2504	2504	-1	8060	8060	-1	9580	9580	-1	t < 800 ms	31	15	800 ms < t < 1200 ms	1	0	t > 1200 ms	168	84	failed	0	0	0	0	-1
+coachmessages select	1000	1000	0	90	90	-1	10370	10370	-1	4267	4267	-1	2399	2399	-1	7990	7990	-1	9550	9550	-1	t < 800 ms	98	9	800 ms < t < 1200 ms	42	4	t > 1200 ms	860	86	failed	0	0	1	1	-1
+signin	200	200	0	80	80	-1	6120	6120	-1	1594	1594	-1	1616	1616	-1	4990	4990	-1	5540	5540	-1	t < 800 ms	87	43	800 ms < t < 1200 ms	17	8	t > 1200 ms	96	48	failed	0	0	0	0	-1
+activityOffer list	800	800	0	160	160	-1	21360	21360	-1	7603	7603	-1	3536	3536	-1	13040	13040	-1	15510	15510	-1	t < 800 ms	22	2	800 ms < t < 1200 ms	17	2	t > 1200 ms	761	95	failed	0	0	1	1	-1
+user validation	200	200	0	350	350	-1	3130	3130	-1	1000	1000	-1	673	673	-1	2710	2710	-1	3010	3010	-1	t < 800 ms	95	47	800 ms < t < 1200 ms	54	27	t > 1200 ms	51	25	failed	0	0	0	0	-1
+coachmessages home	200	200	0	80	80	-1	8560	8560	-1	2378	2378	-1	2391	2391	-1	7310	7310	-1	7860	7860	-1	t < 800 ms	75	37	800 ms < t < 1200 ms	10	5	t > 1200 ms	115	57	failed	0	0	0	0	-1
+notifications	2400	2400	0	80	80	-1	13390	13390	-1	5365	5365	-1	3092	3092	-1	10010	10010	-1	11920	11920	-1	t < 800 ms	247	10	800 ms < t < 1200 ms	68	2	t > 1200 ms	2085	86	failed	0	0	2	2	-1
+coachmessages check	200	200	0	90	90	-1	9200	9200	-1	3099	3099	-1	2569	2569	-1	7750	7750	-1	8720	8720	-1	t < 800 ms	57	28	800 ms < t < 1200 ms	11	5	t > 1200 ms	132	66	failed	0	0	0	0	-1
+activityPlan put	800	800	0	250	250	-1	16240	16240	-1	7206	7206	-1	3521	3521	-1	12620	12620	-1	14990	14990	-1	t < 800 ms	35	4	800 ms < t < 1200 ms	25	3	t > 1200 ms	740	92	failed	0	0	1	1	-1
+activityoffers	200	200	0	120	120	-1	16560	16560	-1	5295	5295	-1	4638	4638	-1	14040	14040	-1	14940	14940	-1	t < 800 ms	41	20	800 ms < t < 1200 ms	13	6	t > 1200 ms	146	73	failed	0	0	0	0	-1
+assessment	200	200	0	140	140	-1	11170	11170	-1	3806	3806	-1	3296	3296	-1	10010	10010	-1	10980	10980	-1	t < 800 ms	52	26	800 ms < t < 1200 ms	11	5	t > 1200 ms	137	68	failed	0	0	0	0	-1
+activityPlan conflicts	4000	4000	0	100	100	-1	11120	11120	-1	4519	4519	-1	2168	2168	-1	7910	7910	-1	9300	9300	-1	t < 800 ms	188	4	800 ms < t < 1200 ms	156	3	t > 1200 ms	3656	91	failed	0	0	4	4	-1
+focus profile	600	600	0	170	170	-1	10960	10960	-1	4275	4275	-1	2363	2363	-1	8110	8110	-1	9410	9410	-1	t < 800 ms	68	11	800 ms < t < 1200 ms	22	3	t > 1200 ms	510	85	failed	0	0	1	1	-1
+assessment result newest	1000	1000	0	80	80	-1	10340	10340	-1	3937	3937	-1	2462	2462	-1	7850	7850	-1	9400	9400	-1	t < 800 ms	138	13	800 ms < t < 1200 ms	56	5	t > 1200 ms	806	80	failed	0	0	1	1	-1
+assessment result answer	5200	5200	0	140	140	-1	10510	10510	-1	3740	3740	-1	2559	2559	-1	8000	8000	-1	9140	9140	-1	t < 800 ms	927	17	800 ms < t < 1200 ms	243	4	t > 1200 ms	4030	77	failed	0	0	5	5	-1
+signup	200	200	0	90	90	-1	1580	1580	-1	192	192	-1	142	142	-1	320	320	-1	580	580	-1	t < 800 ms	198	99	800 ms < t < 1200 ms	0	0	t > 1200 ms	2	1	failed	0	0	0	0	-1
+

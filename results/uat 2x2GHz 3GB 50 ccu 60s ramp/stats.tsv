@@ -1,0 +1,25 @@
+name	nbRequest	nbRequestOK	nbRequestKO	minResponseTime	minResponseTimeOK	minResponseTimeKO	maxResponseTime	maxResponseTimeOK	maxResponseTimeKO	meanResponseTime	meanResponseTimeOK	meanResponseTimeKO	deviation	deviationOK	deviationKO	percentile1	percentile1OK	percentile1KO	percentile2	percentile2OK	percentile2KO	group1Name	group1Count	group1Percentage	group2Name	group2Count	group2Percentage	group3Name	group3Count	group3Percentage	group4Name	group4Count	group4Percentage	meanNumberOfRequestsPerSecond	meanNumberOfRequestsPerSecondOK	meanNumberOfRequestsPerSecondKO
+Global Information	5250	5250	0	80	80	-1	3160	3160	-1	567	567	-1	439	439	-1	1430	1430	-1	1930	1930	-1	t < 800 ms	3810	72	800 ms < t < 1200 ms	959	18	t > 1200 ms	481	9	failed	0	0	21	21	-1
+activityPlan get	200	200	0	100	100	-1	2040	2040	-1	575	575	-1	403	403	-1	1260	1260	-1	1730	1730	-1	t < 800 ms	139	69	800 ms < t < 1200 ms	47	23	t > 1200 ms	14	7	failed	0	0	1	1	-1
+activityOffer view	200	200	0	100	100	-1	3160	3160	-1	857	857	-1	656	656	-1	2010	2010	-1	2930	2930	-1	t < 800 ms	107	53	800 ms < t < 1200 ms	36	18	t > 1200 ms	57	28	failed	0	0	1	1	-1
+activityPlan post	200	200	0	140	140	-1	2560	2560	-1	728	728	-1	540	540	-1	1750	1750	-1	2320	2320	-1	t < 800 ms	128	64	800 ms < t < 1200 ms	34	17	t > 1200 ms	38	19	failed	0	0	1	1	-1
+assessment result newest populate	50	50	0	100	100	-1	1950	1950	-1	721	721	-1	474	474	-1	1760	1760	-1	1950	1950	-1	t < 800 ms	28	56	800 ms < t < 1200 ms	15	30	t > 1200 ms	7	14	failed	0	0	0	0	-1
+coachmessages schedule	200	200	0	90	90	-1	1320	1320	-1	450	450	-1	292	292	-1	970	970	-1	1170	1170	-1	t < 800 ms	170	85	800 ms < t < 1200 ms	28	14	t > 1200 ms	2	1	failed	0	0	1	1	-1
+coachmessages signup	50	50	0	80	80	-1	220	220	-1	120	120	-1	32	32	-1	200	200	-1	220	220	-1	t < 800 ms	50	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+coachmessages focus	50	50	0	100	100	-1	1420	1420	-1	531	531	-1	385	385	-1	1280	1280	-1	1420	1420	-1	t < 800 ms	36	72	800 ms < t < 1200 ms	11	22	t > 1200 ms	3	6	failed	0	0	0	0	-1
+coachmessages select	250	250	0	80	80	-1	1760	1760	-1	466	466	-1	356	356	-1	1140	1140	-1	1480	1480	-1	t < 800 ms	205	82	800 ms < t < 1200 ms	33	13	t > 1200 ms	12	4	failed	0	0	1	1	-1
+signin	50	50	0	80	80	-1	330	330	-1	122	122	-1	52	52	-1	260	260	-1	330	330	-1	t < 800 ms	50	100	800 ms < t < 1200 ms	0	0	t > 1200 ms	0	0	failed	0	0	0	0	-1
+activityOffer list	200	200	0	120	120	-1	2430	2430	-1	856	856	-1	587	587	-1	2110	2110	-1	2350	2350	-1	t < 800 ms	108	54	800 ms < t < 1200 ms	37	18	t > 1200 ms	55	27	failed	0	0	1	1	-1
+user validation	50	50	0	340	340	-1	1920	1920	-1	429	429	-1	224	224	-1	580	580	-1	1920	1920	-1	t < 800 ms	49	98	800 ms < t < 1200 ms	0	0	t > 1200 ms	1	2	failed	0	0	0	0	-1
+coachmessages home	50	50	0	80	80	-1	1530	1530	-1	160	160	-1	203	203	-1	280	280	-1	1530	1530	-1	t < 800 ms	49	98	800 ms < t < 1200 ms	0	0	t > 1200 ms	1	2	failed	0	0	0	0	-1
+notifications	600	600	0	80	80	-1	2180	2180	-1	525	525	-1	452	452	-1	1380	1380	-1	1800	1800	-1	t < 800 ms	435	72	800 ms < t < 1200 ms	108	18	t > 1200 ms	57	9	failed	0	0	2	2	-1
+coachmessages check	50	50	0	80	80	-1	1450	1450	-1	268	268	-1	276	276	-1	880	880	-1	1450	1450	-1	t < 800 ms	46	92	800 ms < t < 1200 ms	3	6	t > 1200 ms	1	2	failed	0	0	0	0	-1
+activityPlan put	200	200	0	140	140	-1	2280	2280	-1	627	627	-1	506	506	-1	1580	1580	-1	2240	2240	-1	t < 800 ms	138	69	800 ms < t < 1200 ms	30	15	t > 1200 ms	32	16	failed	0	0	1	1	-1
+activityoffers	50	50	0	110	110	-1	2420	2420	-1	390	390	-1	471	471	-1	1570	1570	-1	2420	2420	-1	t < 800 ms	42	84	800 ms < t < 1200 ms	4	8	t > 1200 ms	4	8	failed	0	0	0	0	-1
+assessment	50	50	0	150	150	-1	1940	1940	-1	473	473	-1	455	455	-1	1710	1710	-1	1940	1940	-1	t < 800 ms	42	84	800 ms < t < 1200 ms	4	8	t > 1200 ms	4	8	failed	0	0	0	0	-1
+activityPlan conflicts	1000	1000	0	90	90	-1	2100	2100	-1	501	501	-1	344	344	-1	1100	1100	-1	1480	1480	-1	t < 800 ms	780	78	800 ms < t < 1200 ms	185	18	t > 1200 ms	35	3	failed	0	0	4	4	-1
+focus profile	150	150	0	150	150	-1	1660	1660	-1	699	699	-1	360	360	-1	1470	1470	-1	1630	1630	-1	t < 800 ms	93	62	800 ms < t < 1200 ms	41	27	t > 1200 ms	16	10	failed	0	0	1	1	-1
+assessment result newest	250	250	0	80	80	-1	1760	1760	-1	591	591	-1	373	373	-1	1280	1280	-1	1540	1540	-1	t < 800 ms	175	70	800 ms < t < 1200 ms	60	24	t > 1200 ms	15	6	failed	0	0	1	1	-1
+assessment result answer	1300	1300	0	130	130	-1	2140	2140	-1	617	617	-1	413	413	-1	1450	1450	-1	1770	1770	-1	t < 800 ms	891	68	800 ms < t < 1200 ms	283	21	t > 1200 ms	126	9	failed	0	0	5	5	-1
+signup	50	50	0	90	90	-1	1520	1520	-1	182	182	-1	228	228	-1	590	590	-1	1520	1520	-1	t < 800 ms	49	98	800 ms < t < 1200 ms	0	0	t > 1200 ms	1	2	failed	0	0	0	0	-1
+
