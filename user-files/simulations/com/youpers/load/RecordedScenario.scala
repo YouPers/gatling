@@ -40,7 +40,7 @@ class RecordedScenario extends Simulation {
     }
   }
 
-  val overridePause = true
+  val overridePause = false
 
 	val httpConf = httpConfig
 			.baseURL("http://localhost:8000")
@@ -637,5 +637,5 @@ class RecordedScenario extends Simulation {
       chain_homeResolves
     )
 
-	setUp(scn.users(1).ramp(1).protocolConfig(httpConf))
+	setUp(scn.users(300).ramp(600).protocolConfig(httpConf))
 }
