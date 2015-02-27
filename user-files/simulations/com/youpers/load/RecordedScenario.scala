@@ -637,5 +637,5 @@ class RecordedScenario extends Simulation {
       chain_homeResolves
     )
 
-	setUp(scn.users(300).ramp(600).protocolConfig(httpConf))
+	setUp(scn.users(100).ramp(300).protocolConfig(httpConf))
 }
