@@ -1,4 +1,4 @@
-package com.youpers.load 
+package com.youpers.load
 import com.excilys.ebi.gatling.core.Predef._
 import com.excilys.ebi.gatling.http.Predef._
 import com.excilys.ebi.gatling.jdbc.Predef._
@@ -66,7 +66,6 @@ class RecordedScenario extends Simulation {
 	)
 
 	val headers_11 = Map(
-			"Authorization" -> """Basic dGVzdEB0ZXN0OnBhc3N3ZA==""",
 			"Cache-Control" -> """no-cache""",
 			"Content-Type" -> """application/json;charset=utf-8""",
 			"Origin" -> """http://localhost:9000""",
@@ -515,7 +514,7 @@ class RecordedScenario extends Simulation {
 					.queryParam("""filter[activity]""", """54ef37f0dd1f434db7724fcf""")
       .header("Authorization", "Bearer ${token}")
 			)
-		.exec(http("request_74")
+		.exec(http("invitationStatus GET")
 					.get("/activities/54ef37f0dd1f434db7724fcf/invitationStatus")
 					.headers(headers_1)
       .header("Authorization", "Bearer ${token}")
@@ -569,6 +568,7 @@ class RecordedScenario extends Simulation {
 		.exec(http("invitationStatus GET")
 					.get("/activities/54ef37f0dd1f434db7724fcf/invitationStatus")
 					.headers(headers_1)
+      .header("Authorization", "Bearer ${token}")
 			)
 		.exec(http("activityevents GET")
 					.get("/activityevents")
@@ -630,12 +630,12 @@ class RecordedScenario extends Simulation {
       chain_homeResolves,
       chain_recommendation1,
       chain_homeResolves,
-//      chain_recommendation1,
+      chain_recommendation1,
       chain_homeResolves,
       chain_invitation,
       chain_comments,
       chain_homeResolves
     )
 
-	setUp(scn.users(1).protocolConfig(httpConf))
+	setUp(scn.users(1).ramp(1).protocolConfig(httpConf))
 }
