@@ -1,0 +1,12 @@
+{
+  "author": "${userId}",
+  "authorType": "user",
+  "publishFrom": "2015-02-26T16:58:18.524Z",
+  "targetSpaces": [
+    {
+      "type": "activity",
+      "targetId": "54ef37f0dd1f434db7724fcf"
+    }
+  ],
+  "text": "test1"
+}

@@ -1,0 +1,37 @@
+{
+  "__v": 0,
+  "allDay": false,
+  "campaign": "527916a82079aa8704000006",
+  "created": "2015-02-26T15:12:48.606Z",
+  "end": "2015-02-27T11:00:00.000Z",
+  "executionType": "group",
+  "frequency": "week",
+  "idea": "5278c6adcdeab69a2500007c",
+  "number": "Act-119",
+  "owner": "${userId}",
+  "start": "2015-02-27T10:00:00.000Z",
+  "status": "active",
+  "title": "Vitaparcours",
+  "updated": "2015-02-26T15:12:48.606Z",
+  "recurrence": {
+    "every": 1,
+    "exceptions": [],
+    "byday": [
+      "MO",
+      "TU",
+      "WE",
+      "TH",
+      "FR"
+    ],
+    "endby": {
+      "after": 3,
+      "type": "after"
+    }
+  },
+  "joiningUsers": [],
+  "id": "54ef37f0dd1f434db7724fcf",
+  "deleteStatus": "deletable",
+  "editStatus": "editable",
+  "startTime": "2015-02-27T10:00:00.000Z",
+  "endTime": "2015-02-27T11:00:00.000Z"
+}

@@ -1,0 +1,48 @@
+{
+  "created": "2015-02-26T16:57:03.062Z",
+  "updated": "2015-02-26T16:57:03.062Z",
+  "owner": {
+    "avatar": "/assets/img/default_avatar_woman.png",
+    "created": "2015-02-26T16:56:13.736Z",
+    "updated": "2015-02-26T16:56:13.736Z",
+    "lastLogin": "2015-02-26T16:56:13.735Z",
+    "firstname": "test",
+    "lastname": "test",
+    "email": "test@test",
+    "fullname": "test test",
+    "__v": 0,
+    "photos": [],
+    "emails": [],
+    "id": "${userId}"
+  },
+  "idea": "5278c6adcdeab69a25000024",
+  "status": "active",
+  "executionType": "self",
+  "title": "Vorgesetzter und Arbeitssituation",
+  "number": "Act-31",
+  "start": "2015-02-27T16:57:00.000Z",
+  "end": "2015-02-27T16:57:00.000Z",
+  "allDay": false,
+  "frequency": "day",
+  "campaign": "527916a82079aa8704000006",
+  "__v": 0,
+  "recurrence": {
+    "every": 1,
+    "exceptions": [],
+    "byday": [
+      "MO",
+      "TU",
+      "WE",
+      "TH",
+      "FR"
+    ],
+    "endby": {
+      "type": "after",
+      "after": 3
+    }
+  },
+  "joiningUsers": [],
+  "id": "${recommendation1ActivityId}",
+  "deleteStatus": "deletable",
+  "editStatus": "editable"
+}
