@@ -1,0 +1,59 @@
+{
+  "owner": "${userId}",
+  "idea": {
+    "__v": 9,
+    "author": "52d4f515fac246174c000006",
+    "created": "2014-04-25T09:31:47.007Z",
+    "defaultStartTime": "2015-01-09T09:00:00.000Z",
+    "defaultduration": 30,
+    "defaultexecutiontype": "self",
+    "defaultfrequency": "once",
+    "defaultvisibility": "private",
+    "number": "Act-31",
+    "picture": "https://dxjlk9p2h4a7j.cloudfront.net/ideas/Act-31.jpg",
+    "source": "youpers",
+    "updated": "2015-02-19T12:43:40.916Z",
+    "topics": ["53b416cfa43aac62a2debda1"],
+    "id": "5278c6adcdeab69a25000024",
+    "title": "Vorgesetzter und Arbeitssituation",
+    "description": "Führe ein offenes Gespräch mit deiner bzw. deinem Vorgesetzten über deine persönliche Arbeits&shy;situation und Arbeitsgestaltung.",
+    "text": "Im Mitarbeitergespräch kannst du deinem Vorgesetzten mitteilen, was dich bei der Arbeit stört und was deine Leistung und dein Befinden verbessern könnte.\n\nDas Mitarbeitergespräch eignet sich gut, auch kleinere Probleme an&shy;zu&shy;sprechen, denn jetzt hast du die ganze Aufmerksam&shy;keit des Vorgesetzten. Frag nach einem neuen Stuhl, einem grösseren Monitor oder einem höhen&shy;ver&shy;stell&shy;baren Tisch.\n\nNotiere dir die Punkte vor dem Gespräch, damit du im Gespräch nichts vergisst.",
+    "route": "ideas",
+    "reqParams": null,
+    "fromServer": true,
+    "parentResource": null,
+    "restangularCollection": false
+  },
+  "status": "active",
+  "executionType": "self",
+  "title": "Vorgesetzter und Arbeitssituation",
+  "number": "Act-31",
+  "start": "2015-02-27T09:00:00.000Z",
+  "end": "2015-02-27T09:30:00.000Z",
+  "allDay": false,
+  "frequency": "once",
+  "campaign": "527916a82079aa8704000006",
+  "recurrence": {
+    "every": 1,
+    "exceptions": [],
+    "byday": [
+      "MO",
+      "TU",
+      "WE",
+      "TH",
+      "FR"
+    ],
+    "endby": {
+      "type": "after",
+      "after": 3
+    }
+  },
+  "joiningUsers": [],
+  "deleteStatus": "deletable",
+  "editStatus": "editable",
+  "startTime": "2015-02-27T09:00:00.000Z",
+  "endTime": "2015-02-27T09:30:00.000Z",
+  "isScheduled": false,
+  "isDeletable": true,
+  "isEditable": true
+}
